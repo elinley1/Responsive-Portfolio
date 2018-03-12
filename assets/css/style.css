@@ -168,7 +168,7 @@ h3, h2 {
   border-bottom: 0;
 }
 
-.auth-image {
+.bio-image {
   float: left;
   width: 200px;
   height: auto;
@@ -215,3 +215,38 @@ input[type=submit] {
   background: #2f3be0;
   border: 0 none;
 }
+@media screen and (max-width: 640px) {
+  body {
+    background-color: #333;
+  }
+
+  #masthead {
+    position: static;
+  } 
+  
+  nav-a {
+
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+  }
+  .container {
+    /* Box-model */
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+  }
+
+  #main-content {
+    width: 100%;
+  }
+
+  .bio-image {
+    width= 100%;
+  }
+}
+
+
