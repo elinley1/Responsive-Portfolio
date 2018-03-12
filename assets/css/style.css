@@ -168,7 +168,7 @@ h3, h2 {
   border-bottom: 0;
 }
 
-.bio-image {
+#bio-image {
   float: left;
   width: 200px;
   height: auto;
@@ -221,13 +221,9 @@ input[type=submit] {
   }
 
   #masthead {
-    position: static;
+    position: fixed;
   } 
   
-  nav-a {
-
-  }
-
   footer {
     position: fixed;
     bottom: 0px;
@@ -235,7 +231,6 @@ input[type=submit] {
   }
   .container {
     /* Box-model */
-    position: fixed;
     width: 100%;
     padding: 20px;
   }
@@ -244,9 +239,62 @@ input[type=submit] {
     width: 100%;
   }
 
-  .bio-image {
-    width= 100%;
+  #bio-image {
+    width: 100%;
+  }
+  .work {
+    width: 100%;
+    padding: 20px;
+  }
+  .work h3 {
+    padding: 20px;
+    margin: auto;
+    width: 100%
+  }
+  #contact-form {
+    width: 100%;
   }
 }
 
+@media screen and (max-width: 768px) {
+  
+  body {
+    background-color: #333;
+  }
+
+  #masthead {
+    position: static;
+  } 
+  
+  footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+  }
+  .container {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+  }
+
+  #main-content {
+    width: 100%;
+  }
+
+  #bio-image {
+    width: 100%;
+  }
+  .work {
+    width: 100%;
+    padding: 20px;
+  }
+  .work h3 {
+    padding: 20px;
+    margin: auto;
+    width: 100%
+  }
+  #contact-form {
+    width: 100%;
+  }
+}
 
