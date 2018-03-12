@@ -215,6 +215,49 @@ input[type=submit] {
   background: #2f3be0;
   border: 0 none;
 }
+
+@media screen and (max-width: 768px) {
+  
+  body {
+    background-color: #333;
+  }
+
+  #masthead {
+    position: static;
+  } 
+  
+  footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+  }
+  .container {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+  }
+
+  #main-content {
+    width: 100%;
+  }
+
+  #bio-image {
+    width: 75%;
+  }
+  .work {
+    width: 40%;
+    padding: 20px;
+  }
+  .work h3 {
+    padding-right: 20px;
+    margin: auto;
+    width: 85%
+  }
+  #contact-form {
+    width: 75%;
+  }
+}
+
 @media screen and (max-width: 640px) {
   body {
     background-color: #333;
@@ -249,52 +292,12 @@ input[type=submit] {
   .work h3 {
     padding: 20px;
     margin: auto;
-    width: 100%
+    width: 92.5%;
   }
   #contact-form {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 768px) {
-  
-  body {
-    background-color: #333;
-  }
 
-  #masthead {
-    position: static;
-  } 
-  
-  footer {
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-  }
-  .container {
-    /* Box-model */
-    width: 100%;
-    padding: 20px;
-  }
-
-  #main-content {
-    width: 100%;
-  }
-
-  #bio-image {
-    width: 100%;
-  }
-  .work {
-    width: 100%;
-    padding: 20px;
-  }
-  .work h3 {
-    padding: 20px;
-    margin: auto;
-    width: 100%
-  }
-  #contact-form {
-    width: 100%;
-  }
-}
 
